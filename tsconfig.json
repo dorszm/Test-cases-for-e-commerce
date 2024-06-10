@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "types": ["cypress", "node", "cypress-real-events"],
+    "typeRoots": ["./node_modules/@types"],
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": [
+        "./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"
+      ]
+    }
+  },
+  "include": ["**/*.ts", "cypress/**/*.js"]
+}

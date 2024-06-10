@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "BDD + Cypress + Cucumber + Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "author": "Dorota Szmajnta",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "cypress": "^13.11.0"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-if": "^1.12.1",
+    "cypress-mailosaur": "^2.14.0",
+    "typescript": "^5.4.5"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": [
+      "cypress/e2e/steps/**/*.ts"
+    ]
+  }
+}
