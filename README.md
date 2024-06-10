@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains end-to-end (e2e) automated tests for a e-commerce platform (registration, login, searching products). The structure or project is based on BDD Scenarios as test cases, Page Object Modals and Cypress. For this project also is used demo version of Mailosaur (https://mailosaur.com/) to get verification code in registration process.
+This repository contains end-to-end (e2e) automated tests for a e-commerce platform (registration, login, searching products). The structure or project is based on BDD Scenarios as test cases, Page Object Modal and Cypress. For this project also is used demo version of Mailosaur (https://mailosaur.com/) to get verification code in registration process.
 
 ## Setup
 
